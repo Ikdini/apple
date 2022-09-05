@@ -28,7 +28,8 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost',
+                 '127.0.0.1', 'ioluwande.herokuapp.com']
 
 
 # Application definition
@@ -121,10 +122,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
-# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'network/static/network'),)
+STATIC_ROOT = BASE_DIR / 'portfolio/static'
 
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
+# STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
@@ -151,4 +154,4 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 # Custom setting. To email
 RECIPIENT_ADDRESS = config('RECIPIENT_ADDRESS')
 
-django_on_heroku.settings(locals())
+# django_on_heroku.settings(locals())
