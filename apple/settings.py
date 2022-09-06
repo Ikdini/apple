@@ -13,7 +13,6 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 from pathlib import Path
 from decouple import config
 import django_on_heroku
-import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -123,9 +122,10 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'portfolio/static'
+# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'network/static/network'),)
 
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
 
@@ -134,16 +134,8 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# # Send email to myself from the app
-# SMTP backend
+# Send email to myself from the app
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# Console backend
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-# File backend
-# EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
-# EMAIL_FILE_PATH = '/home/dini/Downloads'
-# Dummy backend
-# EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
@@ -151,15 +143,5 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = config('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 
-# SENDGRID_API_KEY = config('SENDGRID_API_KEY')
-
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_HOST_USER = 'apikey'  # this is exactly the value 'apikey'
-# EMAIL_HOST_PASSWORD = SENDGRID_API_KEY
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
-
 # Custom setting. To email
 RECIPIENT_ADDRESS = config('RECIPIENT_ADDRESS')
-
-# django_on_heroku.settings(locals())
