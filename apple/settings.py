@@ -145,20 +145,19 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 # Dummy backend
 # EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
 
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
-# EMAIL_HOST_USER = config('EMAIL_HOST_USER')
-# EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
-
-SENDGRID_API_KEY = config('SENDGRID_API_KEY')
-
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'apikey'  # this is exactly the value 'apikey'
-EMAIL_HOST_PASSWORD = SENDGRID_API_KEY
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-# EMAIL_USE_SSL = True
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+
+# SENDGRID_API_KEY = config('SENDGRID_API_KEY')
+
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_HOST_USER = 'apikey'  # this is exactly the value 'apikey'
+# EMAIL_HOST_PASSWORD = SENDGRID_API_KEY
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
 
 # Custom setting. To email
 RECIPIENT_ADDRESS = config('RECIPIENT_ADDRESS')
