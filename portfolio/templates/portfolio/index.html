@@ -2,827 +2,681 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Ifeoluwapo Oluwande</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <!-- Favicons -->
-    <link href="{% static 'portfolio/img/favicon.jpg' %}" rel="icon" />
-    <link
-      href="{% static 'portfolio/img/apple-touch-icon.jpg' %}"
-      rel="apple-touch-icon"
-    />
+  <title>Ifeoluwapo Oluwande</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
 
-    <!-- Iconify icons -->
-    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <!-- Favicons -->
+  <link href="{% static 'portfolio/img/favicon.jpg' %}" rel="icon" />
+  <link href="{% static 'portfolio/img/apple-touch-icon.jpg' %}" rel="apple-touch-icon" />
 
-    <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+  <!-- Iconify icons -->
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 
-    <!-- DEVICON icons (https://devicon.dev) -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
-    />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
+  <!-- DEVICON icons (https://devicon.dev) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
 
-    <!-- Vendor CSS Files -->
-    <link href="{% static 'portfolio/vendor/aos/aos.css' %}" rel="stylesheet" />
-    <link
-      href="{% static 'portfolio/vendor/bootstrap/css/bootstrap.min.css' %}"
-      rel="stylesheet"
-    />
-    <link
-      href="{% static 'portfolio/vendor/bootstrap-icons/bootstrap-icons.css' %}"
-      rel="stylesheet"
-    />
-    <link
-      href="{% static 'portfolio/vendor/boxicons/css/boxicons.min.css' %}"
-      rel="stylesheet"
-    />
-    <link
-      href="{% static 'portfolio/vendor/glightbox/css/glightbox.min.css' %}"
-      rel="stylesheet"
-    />
-    <link
-      href="{% static 'portfolio/vendor/swiper/swiper-bundle.min.css' %}"
-      rel="stylesheet"
-    />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
 
-    <!-- Copyright year script -->
-    <script src="{% static 'portfolio/js/getyear.js' %}"></script>
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'portfolio/vendor/aos/aos.css' %}" rel="stylesheet" />
+  <link href="{% static 'portfolio/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'portfolio/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet" />
+  <link href="{% static 'portfolio/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'portfolio/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'portfolio/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet" />
 
-    <!-- Template Main CSS File -->
-    <link href="{% static 'portfolio/css/style.css' %}" rel="stylesheet" />
+  <!-- Copyright year script -->
+  <script src="{% static 'portfolio/js/getyear.js' %}"></script>
 
-    <!-- =======================================================
+  <!-- Template Main CSS File -->
+  <link href="{% static 'portfolio/css/style.css' %}" rel="stylesheet" />
+
+  <!-- =======================================================
   * Template Name: iPortfolio - v3.8.1
   * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  </head>
+</head>
 
-  <body>
-    <!-- ======= Mobile nav toggle button ======= -->
-    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+<body>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-    <!-- ======= Header ======= -->
-    <header id="header">
-      <div class="d-flex flex-column">
-        <div class="profile">
-          <img
-            src="{% static 'portfolio/img/profile-img(1).jpg' %}"
-            alt=""
-            class="img-fluid rounded-circle"
-          />
-          <h1 class="text-light">Ifeoluwapo Oluwande</h1>
-          <div class="social-links mt-3 text-center">
-            <a
-              href="https://www.linkedin.com/in/ifeoluwapo-oluwande-47212118a/"
-              class="linkedin"
-              ><i class="bx bxl-linkedin"></i
-            ></a>
-            <a href="https://github.com/ikdini" class="github"
-              ><i class="bx bxl-github"></i
-            ></a>
-            <a href="https://twitter.com/IkDini" class="twitter"
-              ><i class="bx bxl-twitter"></i
-            ></a>
-          </div>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+      <div class="profile">
+        <img src="{% static 'portfolio/img/profile-img(1).jpg' %}" alt="" class="img-fluid rounded-circle" />
+        <h1 class="text-light">Ifeoluwapo Oluwande</h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.linkedin.com/in/ifeoluwapo-oluwande-47212118a/" class="linkedin"><i
+              class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/ikdini" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://twitter.com/IkDini" class="twitter"><i class="bx bxl-twitter"></i></a>
         </div>
-
-        <nav id="navbar" class="nav-menu navbar">
-          <ul>
-            <li>
-              <a href="#hero" class="nav-link scrollto active"
-                ><i class="bx bx-home"></i> <span>Home</span></a
-              >
-            </li>
-            <li>
-              <a href="#about" class="nav-link scrollto"
-                ><i class="bx bx-user"></i> <span>About</span></a
-              >
-            </li>
-            <li>
-              <a href="#skills" class="nav-link scrollto"
-                ><i class="bx bx-briefcase-alt"></i> <span>Skills</span></a
-              >
-            </li>
-            <li>
-              <a href="#resume" class="nav-link scrollto"
-                ><i class="bx bx-file-blank"></i> <span>Resume</span></a
-              >
-            </li>
-            <li>
-              <a href="#portfolio" class="nav-link scrollto"
-                ><i class="bx bx-book-content"></i> <span>Projects</span></a
-              >
-            </li>
-            <li>
-              <a href="#contact" class="nav-link scrollto"
-                ><i class="bx bx-envelope"></i> <span>Contact</span></a
-              >
-            </li>
-          </ul>
-        </nav>
-        <!-- .nav-menu -->
       </div>
-    </header>
-    <!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
-    <section
-      id="hero"
-      class="d-flex flex-column justify-content-center align-items-center"
-    >
-      <div class="hero-container" data-aos="fade-in">
-        <h1>Ifeoluwapo Oluwande</h1>
-        <p>
-          I'm
-          <span
-            class="typed"
-            data-typed-items="Backend Developer, Web Developer, Electronic Electrical Engineer, Freelancer"
-          ></span>
-        </p>
-      </div>
-    </section>
-    <!-- End Hero -->
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li>
+            <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link scrollto"><i class="bx bx-briefcase-alt"></i> <span>Skills</span></a>
+          </li>
+          <li>
+            <a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
+          </li>
+        </ul>
+      </nav>
+      <!-- .nav-menu -->
+    </div>
+  </header>
+  <!-- End Header -->
 
-    <main id="main">
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
-        <div class="container">
-          <div class="section-title">
-            <h2>About</h2>
-            <p>
-              I am an excellent
-              <strong class="about keyword">problem solver</strong> with good
-              <strong class="about keyword">leadership skill</strong>, a great
-              <strong class="about keyword">team player</strong>,
-              <strong class="about keyword">critical thinking</strong> ability
-              and a <strong class="about keyword">fast learner</strong>. As a
-              <strong class="about keyword">backend developer</strong>, I have
-              worked on several projects and with various teams to develop
-              softwares.
-            </p>
-          </div>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Ifeoluwapo Oluwande</h1>
+      <p>
+        I'm
+        <span class="typed"
+          data-typed-items="Backend Developer, Web Developer, Electronic Electrical Engineer, Freelancer"></span>
+      </p>
+    </div>
+  </section>
+  <!-- End Hero -->
 
-          <div class="row">
-            <div class="col-lg-4" data-aos="fade-right">
-              <img
-                src="{% static 'portfolio/img/profile-img(2).jpg' %}"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-              <h3>Dedicated. Focused.</h3>
-              <div class="row">
-                <div class="col-lg-6">
-                  <ul>
-                    <li>
-                      <i class="bi bi-calendar-event"></i>
-                      <span>3 April 1998</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-envelope"></i>
-                      <span>ioluwande@gmail.com</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-bag-check text-success"></i>
-                      <strong class="text-success">Open to work</strong>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-lg-6">
-                  <ul>
-                    <li>
-                      <i class="bi bi-mortarboard"></i>
-                      <span>Bachelor of Science (B.Sc)</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-telephone"></i>
-                      <span>+234 816 6569 383</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-geo-alt"></i> <span>Osun, Nigeria</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p>
-                I have worked with Python, JavaScript and Matlab at various
-                times and I am adept at using Django, Node.js & Express.js. I
-                have also been actively involved with testing and CI/CD, using
-                technologies such as Git, Docker and cloud services (Heroku).
-              </p>
-              <p>
-                I speak English, Pidgin English and Yoruba Language fluently. In
-                my spare time, I love playing games, watching movies, reading
-                novels and listening to music. I am also a big fan of football,
-                basketball, tennis and formula 1.
-              </p>
-            </div>
-          </div>
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>
+            I am a backend developer who loves Web Development. How web apps work has always been an intriguing thing to
+            me, but my
+            interests were in other things until I watched my first web programming tutorial and since then I got
+            hooked. Backend
+            web development incorporates <strong class="about keyword">critical thinking</strong> and <strong
+              class="about keyword">problem solving</strong> which are my passions. I have worked on several
+            projects and with various teams to develop software.
+
+            My specialities include <strong class="about keyword">quickly learning new skills and programming languages,
+              problem-solving, critical thinking, web
+              security, CI/CD, testing, Test Driven Development(TDD)</strong>. I also have good <strong
+              class="about keyword">leadership skills</strong> and I'm a great <strong class="about keyword">team
+              player</strong>.
+          </p>
         </div>
-      </section>
-      <!-- End About Section -->
 
-      <!-- ======= Skills Section ======= -->
-      <section id="skills" class="skills section-bg">
-        <div class="container">
-          <div class="section-title no-preface">
-            <h2>Skills</h2>
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="{% static 'portfolio/img/profile-img(2).jpg' %}" class="img-fluid" alt="" />
           </div>
-
-          <h3 class="resume-title">
-            <i class="fas fa-code"></i> Programming Languages
-          </h3>
-
-          <div class="row skills-content">
-            <div class="row mb-3">
-              <div class="col-sm-3 themed-grid-col">
-                <span
-                  class="iconify"
-                  data-icon="vscode-icons:file-type-python"
-                  style="font-size: 20px"
-                ></span>
-                <span>Python</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="fab fa-js text-warning"></i> <span>JavaScript</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <span
-                  class="iconify"
-                  data-icon="vscode-icons:file-type-matlab"
-                  style="font-size: 20px"
-                ></span>
-                <span>Matlab</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="fab fa-html5 text-danger"></i>
-                <span
-                  >HTML &amp;
-                  <i class="fab fa-css3-alt text-primary"></i> CSS</span
-                >
-              </div>
-            </div>
-          </div>
-
-          <h3 class="resume-title">
-            <i class="fas fa-wrench"></i> Frameworks and Tools
-          </h3>
-
-          <div class="row skills-content">
-            <div class="row mb-3">
-              <div class="col-sm-3 themed-grid-col">
-                <i class="devicon-django-line text-success"></i>
-                <span>Django</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <span
-                  class="iconify"
-                  data-icon="logos:nodejs"
-                  style="font-size: 20px"
-                ></span>
-                <span>Node.js</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <span
-                  class="iconify"
-                  data-icon="simple-icons:express"
-                  style="font-size: 20px"
-                ></span>
-                <span>Express.js</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="devicon-git-plain text-danger"></i> <span>Git</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="fab fa-docker text-primary"></i> <span>Docker</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="fas fa-database text-warning"></i> <span>SQL</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <span
-                  class="iconify"
-                  data-icon="logos:mongodb-icon"
-                  style="font-size: 20px"
-                ></span>
-                <span>MongoDB</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="fab fa-github"></i> <span>GitHub Actions</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="devicon-heroku-line colored"></i> <span>Heroku</span>
-              </div>
-            </div>
-          </div>
-
-          <h3 class="resume-title">
-            <i class="fas fa-industry"></i> Industry Knowledge
-          </h3>
-
-          <div class="row skills-content">
-            <div class="row mb-3">
-              <div class="col-sm-3 themed-grid-col">
-                <i class="far fa-check-circle text-success"></i>
-                <span>Algorithms</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="far fa-check-circle text-success"></i>
-                <span>Data Structures</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="far fa-check-circle text-success"></i>
-                <span>Linux</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="far fa-check-circle text-success"></i>
-                <span>Agile and Scrum</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="far fa-check-circle text-success"></i>
-                <span>Testing and Debugging</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="far fa-check-circle text-success"></i>
-                <span>CI/CD</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="far fa-check-circle text-success"></i>
-                <span>Electronic &amp; Electrical Engineering</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="far fa-check-circle text-success"></i>
-                <span>Integrated Control &amp; Safety Systems</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="far fa-check-circle text-success"></i>
-                <span>Process Control</span>
-              </div>
-            </div>
-          </div>
-
-          <h3 class="resume-title">
-            <i class="fas fa-people-arrows"></i> Interpersonal Skills
-          </h3>
-
-          <div class="row skills-content">
-            <div class="row mb-3">
-              <div class="col-sm-3 themed-grid-col">
-                <i class="fas fa-users text-dark"></i> <span>Leadership</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <span
-                  class="iconify"
-                  data-icon="fa6-solid:people-carry-box"
-                  data-width="20"
-                ></span>
-                <span>Teamwork</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="fas fa-comments text-primary"></i>
-                <span>Communication</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="fas fa-hourglass-half text-success"></i>
-                <span>Time Management</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="fas fa-puzzle-piece text-success"></i>
-                <span>Problem Solving</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="fas fa-brain text-primary"></i>
-                <span>Critical Thinking</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <i class="fas fa-paint-brush text-success"></i>
-                <span>Creativity</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <span
-                  class="iconify"
-                  data-icon="mdi:arrow-decision-outline"
-                  data-width="20"
-                ></span>
-                <span>Decision Making</span>
-              </div>
-              <div class="col-sm-3 themed-grid-col">
-                <span
-                  class="iconify"
-                  data-icon="fa-solid:assistive-listening-systems"
-                  data-width="18"
-                ></span>
-                <span>Listening</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Skills Section -->
-
-      <!-- ======= Resume Section ======= -->
-      <section id="resume" class="resume">
-        <div class="container">
-          <div class="section-title">
-            <h2>Resume</h2>
-            <a href="{% url 'download_resume' %}"
-              ><i class="fa fa-download text-secondary"></i>
-              <strong class="text-secondary">Download Resume</strong></a
-            >
-          </div>
-          <div class="row">
-            <div class="col-lg-6" data-aos="fade-up">
-              <h3 class="resume-title">Summary</h3>
-              <div class="resume-item pb-0">
-                <h4>Ifeoluwapo Oluwande</h4>
-                <p>
-                  <em
-                    >Experienced Web Developer, adept in all stages of advanced
-                    web development. Equipped with a diverse and promising skill
-                    set..</em
-                  >
-                </p>
-                <ul class="list-unstyled">
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Dedicated. Focused.</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
                   <li>
-                    <i class="bi bi-geo-alt text-primary"></i>
-                    <span>Osun, Nigeria</span>
+                    <i class="bi bi-calendar-event"></i>
+                    <span>3 April 1998</span>
                   </li>
                   <li>
-                    <i class="bi bi-telephone text-primary"></i>
+                    <i class="bi bi-envelope"></i>
+                    <span>ioluwande@gmail.com</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-bag-check text-success"></i>
+                    <strong class="text-success">Open to work</strong>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-mortarboard"></i>
+                    <span>Bachelor of Science (B.Sc)</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-telephone"></i>
                     <span>+234 816 6569 383</span>
                   </li>
                   <li>
-                    <i class="bi bi-envelope text-primary"></i>
-                    <span>ioluwande@gmail.com</span>
+                    <i class="bi bi-geo-alt"></i> <span>Osun, Nigeria</span>
                   </li>
                 </ul>
               </div>
-
-              <h3 class="resume-title">Education</h3>
-              <div class="resume-item">
-                <h4>
-                  Bachelor of Science, Electronic &amp; Electrical Engineering
-                </h4>
-                <h5>2015 - 2021</h5>
-                <p>
-                  <em
-                    >Obafemi Awolowo University, Ile-Ife, Osun State,
-                    Nigeria</em
-                  >
-                </p>
-                <p>
-                  <strong>Activities and societies:</strong><br />
-                  Electronics and Electrical Engineering Students Society
-                  &#9679; Technology and Engineering Students Association
-                  &#9679; Department Football Team
-                </p>
-              </div>
-              <div class="resume-item">
-                <h4>West African Senior School Certificate</h4>
-                <h5>2008 - 2014</h5>
-                <p>
-                  <em>Victory Grammar School, Ikeja, Lagos State, Nigeria</em>
-                </p>
-                <p>
-                  <strong>Activities and societies:</strong><br />
-                  Sport Prefect &#9679; Labour Prefect &#9679; School Basketball
-                  Team
-                </p>
-              </div>
             </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Professional Experience</h3>
-              <div class="resume-item">
-                <h4>ICSS & Instrumentation Intern</h4>
-                <h5>Sept 2019 - Feb 2020</h5>
-                <p>
-                  <em>Total E&P Nigeria Limited, Victoria Island, Lagos </em>
-                </p>
-                <ul>
-                  <li>
-                    Generated daily alarm reports and highlighted critical
-                    alarms, this ensures early detection and resolution of
-                    system faults on the FPSO.
-                  </li>
-                  <li>
-                    Developed dashboards that keep track of process variables of
-                    the FPSO's subsea system, which improved offshore monitoring
-                    activities.
-                  </li>
-                  <li>
-                    Went on a field trip to the EGINA FPSO deep-water offshore
-                    facility, during which valuable experience relating to
-                    process control and instrumentation was gained.
-                  </li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>ELECTRONIC AND ELECTRICAL ENGINEERING INTERN</h4>
-                <h5>Feb 2019 - Apr 2019</h5>
-                <p>
-                  <em
-                    >Centre for Energy Research and Development, Obafemi Awolowo
-                    University, Ile-Ife, Osun State</em
-                  >
-                </p>
-                <ul>
-                  <li>
-                    Developed automatic changeover system, automatic lighting
-                    control system, automatic voltage regulator and power
-                    amplifier.
-                  </li>
-                  <li>
-                    Serviced the atomic absorption spectrophotometry (AAS)
-                    machine.
-                  </li>
-                  <li>Performed Maintenance of the accelerator UPS system</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Resume Section -->
-
-      <!-- ======= Project Section ======= -->
-      <section id="portfolio" class="portfolio section-bg">
-        <div class="container">
-          <div class="section-title no-preface">
-            <h2>Projects</h2>
-          </div>
-
-          <div class="row">
-            <div class="col-md-4">
-              <div class="work-box">
-                <a
-                  href="{% static 'portfolio/img/project-1.png' %}"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                >
-                  <div class="work-img">
-                    <img
-                      src="{% static 'portfolio/img/project-1.png' %}"
-                      alt=""
-                      class="img-fluid"
-                    />
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Wikipedia App</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Django</span> /
-                        <span class="w-date">Mar. 2022</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <a
-                          href="https://github.com/Ikdini/Project-1-Wiki"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <span class="bi bi-play-circle"></span
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a
-                  href="{% static 'portfolio/img/project-2.png' %}"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                >
-                  <div class="work-img">
-                    <img
-                      src="{% static 'portfolio/img/project-2.png' %}"
-                      alt=""
-                      class="img-fluid"
-                    />
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">e-Commerce Site</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Django</span> /
-                        <span class="w-date">Apr. 2022</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <a
-                          href="https://github.com/Ikdini/Project-2-e-Commerce"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <span class="bi bi-play-circle"></span
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a
-                  href="{% static 'portfolio/img/project-3.png' %}"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                >
-                  <div class="work-img">
-                    <img
-                      src="{% static 'portfolio/img/project-3.png' %}"
-                      alt=""
-                      class="img-fluid"
-                    />
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Email Web App</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Django & Javascript</span> /
-                        <span class="w-date">May. 2022</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <a
-                          href="https://github.com/Ikdini/Project-3-Mail"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <span class="bi bi-play-circle"></span
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a
-                  href="{% static 'portfolio/img/project-4.png' %}"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                >
-                  <div class="work-img">
-                    <img
-                      src="{% static 'portfolio/img/project-4.png' %}"
-                      alt=""
-                      class="img-fluid"
-                    />
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Social Network Site</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Django & Javascript</span> /
-                        <span class="w-date">Aug. 2022</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <a
-                          href="https://dini-network.herokuapp.com/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <span class="bi bi-play-circle"></span
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Project Section -->
-
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container">
-          <div class="section-title">
-            <h2>Contact</h2>
             <p>
-              You can drop your messages, enquiries or comments directly at
-              <strong>ioluwande@gmail.com</strong> or through the form below.
+              I have worked with Python, JavaScript and Matlab at various
+              times and I am adept at using Django, Node.js & Express.js. I
+              have been actively involved with testing and CI/CD, using
+              technologies such as Git,GitHub Actions, Docker and cloud services (Heroku). I have also worked with
+              various databases such as SQL, MongoDB and SQLite.
+            </p>
+            <p>
+              I speak English, Pidgin English and Yoruba Language fluently. In
+              my spare time, I love playing games, watching movies, reading
+              novels and listening to music. I am also a big fan of football,
+              basketball, tennis and formula 1.
             </p>
           </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
 
-          <div class="row" data-aos="fade-in">
-            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-              <form action="{% url 'index' %}" method="post" class="row g-3">
-                {% csrf_token %}
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  {{ form.name }}
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  {{ form.email_address }}
-                </div>
-                <div class="form-group">
-                  <label for="name">Subject</label>
-                  {{ form.subject }}
-                </div>
-                <div class="form-group">
-                  <label for="name">Message</label>
-                  {{ form.message }}
-                </div>
-                <div class="text-center">
-                  <button type="submit" class="btn btn-primary">
-                    Send Message
-                  </button>
-                </div>
-              </form>
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+        <div class="section-title no-preface">
+          <h2>Skills</h2>
+        </div>
+
+        <h3 class="resume-title">
+          <i class="fas fa-code"></i> Programming Languages
+        </h3>
+
+        <div class="row skills-content">
+          <div class="row mb-3">
+            <div class="col-sm-3 themed-grid-col">
+              <span class="iconify" data-icon="vscode-icons:file-type-python" style="font-size: 20px"></span>
+              <span>Python</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="fab fa-js text-warning"></i> <span>JavaScript</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <span class="iconify" data-icon="vscode-icons:file-type-matlab" style="font-size: 20px"></span>
+              <span>Matlab</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="fab fa-html5 text-danger"></i>
+              <span>HTML &amp;
+                <i class="fab fa-css3-alt text-primary"></i> CSS</span>
             </div>
           </div>
         </div>
 
-        {% if message %}
-        <script>
-          alert("{{ message }}");
-        </script>
-        {% endif %}
-      </section>
-      <!-- End Contact Section -->
-    </main>
-    <!-- End #main -->
+        <h3 class="resume-title">
+          <i class="fas fa-wrench"></i> Frameworks and Tools
+        </h3>
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <span id="spanYear"></span
-          ><strong><span id="spanYear"> | Ifeoluwapo Oluwande</span></strong>
+        <div class="row skills-content">
+          <div class="row mb-3">
+            <div class="col-sm-3 themed-grid-col">
+              <i class="devicon-django-line text-success"></i>
+              <span>Django</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <span class="iconify" data-icon="logos:nodejs" style="font-size: 20px"></span>
+              <span>Node.js</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <span class="iconify" data-icon="simple-icons:express" style="font-size: 20px"></span>
+              <span>Express.js</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="devicon-git-plain text-danger"></i> <span>Git</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="fab fa-docker text-primary"></i> <span>Docker</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="fas fa-database text-warning"></i> <span>SQL</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <span class="iconify" data-icon="logos:mongodb-icon" style="font-size: 20px"></span>
+              <span>MongoDB</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="fab fa-github"></i> <span>GitHub Actions</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="devicon-heroku-line colored"></i> <span>Heroku</span>
+            </div>
+          </div>
         </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
+        <h3 class="resume-title">
+          <i class="fas fa-industry"></i> Industry Knowledge
+        </h3>
+
+        <div class="row skills-content">
+          <div class="row mb-3">
+            <div class="col-sm-3 themed-grid-col">
+              <i class="far fa-check-circle text-success"></i>
+              <span>Algorithms</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="far fa-check-circle text-success"></i>
+              <span>Data Structures</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="far fa-check-circle text-success"></i>
+              <span>Linux</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="far fa-check-circle text-success"></i>
+              <span>Agile and Scrum</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="far fa-check-circle text-success"></i>
+              <span>Testing and Debugging</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="far fa-check-circle text-success"></i>
+              <span>CI/CD</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="far fa-check-circle text-success"></i>
+              <span>Electronic &amp; Electrical Engineering</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="far fa-check-circle text-success"></i>
+              <span>Integrated Control &amp; Safety Systems</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="far fa-check-circle text-success"></i>
+              <span>Process Control</span>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="resume-title">
+          <i class="fas fa-people-arrows"></i> Interpersonal Skills
+        </h3>
+
+        <div class="row skills-content">
+          <div class="row mb-3">
+            <div class="col-sm-3 themed-grid-col">
+              <i class="fas fa-users text-dark"></i> <span>Leadership</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <span class="iconify" data-icon="fa6-solid:people-carry-box" data-width="20"></span>
+              <span>Teamwork</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="fas fa-comments text-primary"></i>
+              <span>Communication</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="fas fa-hourglass-half text-success"></i>
+              <span>Time Management</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="fas fa-puzzle-piece text-success"></i>
+              <span>Problem Solving</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="fas fa-brain text-primary"></i>
+              <span>Critical Thinking</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <i class="fas fa-paint-brush text-success"></i>
+              <span>Creativity</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <span class="iconify" data-icon="mdi:arrow-decision-outline" data-width="20"></span>
+              <span>Decision Making</span>
+            </div>
+            <div class="col-sm-3 themed-grid-col">
+              <span class="iconify" data-icon="fa-solid:assistive-listening-systems" data-width="18"></span>
+              <span>Listening</span>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
-    <!-- End  Footer -->
+    </section>
+    <!-- End Skills Section -->
 
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2>Resume</h2>
+          <a href="{% url 'download_resume' %}"><i class="fa fa-download text-secondary"></i>
+            <strong class="text-secondary">Download Resume</strong></a>
+        </div>
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Ifeoluwapo Oluwande</h4>
+              <p>
+                <em>Experienced Web Developer, adept in all stages of advanced
+                  web development. Equipped with a diverse and promising skill
+                  set..</em>
+              </p>
+              <ul class="list-unstyled">
+                <li>
+                  <i class="bi bi-geo-alt text-primary"></i>
+                  <span>Osun, Nigeria</span>
+                </li>
+                <li>
+                  <i class="bi bi-telephone text-primary"></i>
+                  <span>+234 816 6569 383</span>
+                </li>
+                <li>
+                  <i class="bi bi-envelope text-primary"></i>
+                  <span>ioluwande@gmail.com</span>
+                </li>
+              </ul>
+            </div>
 
-    <!-- Vendor JS Files -->
-    <script src="{% static 'portfolio/vendor/purecounter/purecounter_vanilla.js' %}"></script>
-    <script src="{% static 'portfolio/vendor/aos/aos.js' %}"></script>
-    <script src="{% static 'portfolio/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
-    <script src="{% static 'portfolio/vendor/glightbox/js/glightbox.min.js' %}"></script>
-    <script src="{% static 'portfolio/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
-    <script src="{% static 'portfolio/vendor/swiper/swiper-bundle.min.js' %}"></script>
-    <script src="{% static 'portfolio/vendor/typed.js/typed.min.js' %}"></script>
-    <script src="{% static 'portfolio/vendor/waypoints/noframework.waypoints.js' %}"></script>
-    <script src="{% static 'portfolio/vendor/php-email-form/validate.js' %}"></script>
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>
+                Bachelor of Science, Electronic &amp; Electrical Engineering
+              </h4>
+              <h5>2015 - 2021</h5>
+              <p>
+                <em>Obafemi Awolowo University, Ile-Ife, Osun State,
+                  Nigeria</em>
+              </p>
+              <p>
+                <strong>Activities and societies:</strong><br />
+                Electronics and Electrical Engineering Students Society
+                &#9679; Technology and Engineering Students Association
+                &#9679; Department Football Team
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>West African Senior School Certificate</h4>
+              <h5>2008 - 2014</h5>
+              <p>
+                <em>Victory Grammar School, Ikeja, Lagos State, Nigeria</em>
+              </p>
+              <p>
+                <strong>Activities and societies:</strong><br />
+                Sport Prefect &#9679; Labour Prefect &#9679; School Basketball
+                Team
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>ICSS & Instrumentation Intern</h4>
+              <h5>Sept 2019 - Feb 2020</h5>
+              <p>
+                <em>Total E&P Nigeria Limited, Victoria Island, Lagos </em>
+              </p>
+              <ul>
+                <li>
+                  Generated daily alarm reports and highlighted critical
+                  alarms, this ensures early detection and resolution of
+                  system faults on the FPSO.
+                </li>
+                <li>
+                  Developed dashboards that keep track of process variables of
+                  the FPSO's subsea system, which improved offshore monitoring
+                  activities.
+                </li>
+                <li>
+                  Went on a field trip to the EGINA FPSO deep-water offshore
+                  facility, during which valuable experience relating to
+                  process control and instrumentation was gained.
+                </li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>ELECTRONIC AND ELECTRICAL ENGINEERING INTERN</h4>
+              <h5>Feb 2019 - Apr 2019</h5>
+              <p>
+                <em>Centre for Energy Research and Development, Obafemi Awolowo
+                  University, Ile-Ife, Osun State</em>
+              </p>
+              <ul>
+                <li>
+                  Developed automatic changeover system, automatic lighting
+                  control system, automatic voltage regulator and power
+                  amplifier.
+                </li>
+                <li>
+                  Serviced the atomic absorption spectrophotometry (AAS)
+                  machine.
+                </li>
+                <li>Performed Maintenance of the accelerator UPS system</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Resume Section -->
 
-    <!-- Template Main JS File -->
-    <script src="{% static 'portfolio/js/main.js' %}"></script>
-  </body>
+    <!-- ======= Project Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+        <div class="section-title no-preface">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="{% static 'portfolio/img/project-1.png' %}" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="{% static 'portfolio/img/project-1.png' %}" alt="" class="img-fluid" />
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Wikipedia App</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Django</span> /
+                      <span class="w-date">Mar. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://github.com/Ikdini/Project-1-Wiki" target="_blank" rel="noopener noreferrer">
+                        <span class="bi bi-play-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="{% static 'portfolio/img/project-2.png' %}" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="{% static 'portfolio/img/project-2.png' %}" alt="" class="img-fluid" />
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">e-Commerce Site</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Django</span> /
+                      <span class="w-date">Apr. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://github.com/Ikdini/Project-2-e-Commerce" target="_blank"
+                        rel="noopener noreferrer">
+                        <span class="bi bi-play-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="{% static 'portfolio/img/project-3.png' %}" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="{% static 'portfolio/img/project-3.png' %}" alt="" class="img-fluid" />
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Email Web App</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Django & Javascript</span> /
+                      <span class="w-date">May. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://github.com/Ikdini/Project-3-Mail" target="_blank" rel="noopener noreferrer">
+                        <span class="bi bi-play-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="{% static 'portfolio/img/project-4.png' %}" data-gallery="portfolioGallery"
+                class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="{% static 'portfolio/img/project-4.png' %}" alt="" class="img-fluid" />
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Social Network Site</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Django & Javascript</span> /
+                      <span class="w-date">Aug. 2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://dini-network.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                        <span class="bi bi-play-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Project Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>
+            You can drop your messages, enquiries or comments directly at
+            <strong>ioluwande@gmail.com</strong> or through the form below.
+          </p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="{% url 'index' %}" method="post" class="row g-3">
+              {% csrf_token %}
+              <div class="form-group col-md-6">
+                <label for="name">Your Name</label>
+                {{ form.name }}
+              </div>
+              <div class="form-group col-md-6">
+                <label for="name">Your Email</label>
+                {{ form.email_address }}
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                {{ form.subject }}
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                {{ form.message }}
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      {% if message %}
+      <script>
+        alert("{{ message }}");
+      </script>
+      {% endif %}
+    </section>
+    <!-- End Contact Section -->
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <span id="spanYear"></span><strong><span id="spanYear"> | Ifeoluwapo Oluwande</span></strong>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'portfolio/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'portfolio/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'portfolio/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'portfolio/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'portfolio/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'portfolio/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'portfolio/vendor/typed.js/typed.min.js' %}"></script>
+  <script src="{% static 'portfolio/vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'portfolio/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'portfolio/js/main.js' %}"></script>
+</body>
+
 </html>
